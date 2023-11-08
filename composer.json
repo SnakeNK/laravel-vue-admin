@@ -1,5 +1,5 @@
 {
-    "name": "SnakeNK/laravel-vue-admin",
+    "name": "Snake_NK/laravel-vue-admin",
     "description": "开箱即用的Laravel后台扩展",
     "license": "MIT",
     "authors": [
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SnakeNK\\Admin\\": "src/"
+            "Snake_NK\\Admin\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -33,16 +33,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SnakeNK\\Admin\\Tests\\": "tests"
+            "Snake_NK\\Admin\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SnakeNK\\Admin\\AdminServiceProvider"
+                "Snake_NK\\Admin\\AdminServiceProvider"
             ],
             "aliases": {
-                "Admin": "SnakeNK\\Admin\\Facades\\Admin"
+                "Admin": "Snake_NK\\Admin\\Facades\\Admin"
             }
         }
     }

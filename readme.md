@@ -63,12 +63,3 @@ php artisan view:clear
 
 - [ZFont找字体](http://zfont.cn)
 
-
-
-# 交流
-
-![image-20200313103804881](./docs/README.assets/image-20200313103804881.png)
-
-# 支持
-
-如果你觉得 Laravel-Vue-Admin 节省了你的开发时间，让你少加班，让你能更早的回家陪女友或者打游戏，能让你更快速的挣到钱，那么请支持我，让我能继续的将 Laravel-Vue-Admin 做好，做下去！

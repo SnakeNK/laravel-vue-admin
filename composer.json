@@ -1,14 +1,14 @@
 {
-    "name": "smallruraldog/laravel-vue-admin",
+    "name": "SnakeNK/laravel-vue-admin",
     "description": "开箱即用的Laravel后台扩展",
     "license": "MIT",
     "authors": [
         {
-            "name": "zhang wei",
-            "email": "thinktb@qq.com"
+            "name": "snake",
+            "email": "33626717@qq.com"
         }
     ],
-    "homepage": "https://github.com/smallruraldog/admin",
+    "homepage": "https://github.com/SnakeNK/laravel-vue-admin",
     "keywords": [
         "Laravel",
         "Admin",
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SmallRuralDog\\Admin\\": "src/"
+            "SnakeNK\\Admin\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -33,16 +33,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SmallRuralDog\\Admin\\Tests\\": "tests"
+            "SnakeNK\\Admin\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SmallRuralDog\\Admin\\AdminServiceProvider"
+                "SnakeNK\\Admin\\AdminServiceProvider"
             ],
             "aliases": {
-                "Admin": "SmallRuralDog\\Admin\\Facades\\Admin"
+                "Admin": "SnakeNK\\Admin\\Facades\\Admin"
             }
         }
     }
